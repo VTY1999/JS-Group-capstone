@@ -1,3 +1,44 @@
-body {
-  background-color: bisque;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 16px;
 }
+
+body {
+  width: 100%;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.nav-items {
+  display: flex;
+  gap: 20px;
+  background-color: blue;
+  width: 100%;
+  padding: 40px;
+}
+li {
+  /* margin-right: 150px; */
+  font-size: 28px;
+  color: white;
+  display: inline;
+  text-align: right;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 28px;
+  margin-left: 150px;
+}
+
+li a:hover {
+  color: pink;
+}
+
