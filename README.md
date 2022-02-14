@@ -6,10 +6,11 @@
 
 
 ## Built With
+- HTML
+- CSS
+- JavaScript
+- Webpack
 
-- Major languages
-- Frameworks
-- Technologies used
 
 ## Live Demo (if available)
 
@@ -18,39 +19,32 @@
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- clone the repository by running
+``` https://github.com/VTY1999/JS-Group-capstone.git ```
+- navigate to the folder
+``` cd JS-Group-capstone ```
+- Install packages
+``` npm install ```
+- Run the app
+``` npm start ```
+## Prerequisites
+- Linters
+- GitHub Flow
+- Javascript
 
 ## Authors
 
-👤 **Author1**
+👤 **Verissimo Francis**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/VTY1999)
+- Twitter: [@twitterhandle](https://twitter.com/verissimoty?s=09)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/francis-verissimo-b5b4521b1/)
 
-👤 **Author2**
+👤 **Sirri Ryisa**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/SirriRyisa)
+- Twitter: [@twitterhandle](https://twitter.com/N_Ryisa)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ryisa-sirri-ngwa-a30013202)
 
 ## 🤝 Contributing
 
