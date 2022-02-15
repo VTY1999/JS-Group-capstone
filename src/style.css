@@ -19,26 +19,46 @@ body {
 .nav-items {
   display: flex;
   gap: 20px;
-  background-color: blue;
+  background-color: #3a1816;
   width: 100%;
-  padding: 40px;
+  padding: 30px;
+  justify-content: flex-end;
+  padding-top: 60px;
 }
+
+.logo {
+  background-image: url('./images/icon.png');
+  background-repeat: no-repeat;
+  background-color: #3a1816;
+}
+
 li {
-  /* margin-right: 150px; */
   font-size: 28px;
   color: white;
   display: inline;
   text-align: right;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
 }
 
 li a {
   text-decoration: none;
   color: white;
   font-size: 28px;
-  margin-left: 150px;
 }
 
 li a:hover {
-  color: pink;
+  color: #9b1818fb;
 }
 
+footer {
+  margin: 0 auto;
+  color: #fff;
+}
+
+.footer p {
+  width: 95%;
+  margin: auto;
+  color: #fff;
+  padding: 2% 0;
+}
