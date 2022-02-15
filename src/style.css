@@ -1,3 +1,64 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 16px;
+}
+
 body {
-  background-color: bisque;
+  width: 100%;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.nav-items {
+  display: flex;
+  gap: 20px;
+  background-color: #3a1816;
+  width: 100%;
+  padding: 30px;
+  justify-content: flex-end;
+  padding-top: 60px;
+}
+
+.logo {
+  background-image: url('./images/icon.png');
+  background-repeat: no-repeat;
+  background-color: #3a1816;
+}
+
+li {
+  font-size: 28px;
+  color: white;
+  display: inline;
+  text-align: right;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 28px;
+}
+
+li a:hover {
+  color: #9b1818fb;
+}
+
+footer {
+  margin: 0 auto;
+  color: #fff;
+}
+
+.footer p {
+  width: 95%;
+  margin: auto;
+  color: #fff;
+  padding: 2% 0;
 }

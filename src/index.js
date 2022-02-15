@@ -1,15 +1,7 @@
-import _ from 'lodash';
-import printMe from './print.js';
+import './style.css';
+import Icon from './images/icon.png';
 
-function component() {
-  const element = document.createElement('div');
-  const btn = document.createElement('button');
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+const myIcon = new Image();
+myIcon.src = Icon;
 
-  btn.innerHTML = 'Click me and check the console!';
-  btn.onclick = printMe;
-  element.appendChild(btn);
-
-  return element;
-}
-document.body.appendChild(component());
+document.querySelector('.logo').appendChild(myIcon);
