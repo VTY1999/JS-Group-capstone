@@ -1,15 +1,9 @@
 *,
-*::before,
-*::after {
-  box-sizing: inherit;
+*::after,
+*::before {
   margin: 0;
   padding: 0;
-  list-style-type: none;
-  font-size: 16px;
-}
-
-body {
-  width: 100%;
+  box-sizing: border-box;
 }
 
 .nav-bar {
@@ -21,7 +15,7 @@ body {
   gap: 20px;
   background-color: #3a1816;
   width: 100%;
-  padding: 30px;
+  padding-right: 120px;
   justify-content: flex-end;
   padding-top: 60px;
 }
@@ -51,14 +45,25 @@ li a:hover {
   color: #9b1818fb;
 }
 
-footer {
-  margin: 0 auto;
-  color: #fff;
+.main {
+  padding: 30px;
+  justify-content: center;
 }
 
-.footer p {
-  width: 95%;
-  margin: auto;
-  color: #fff;
-  padding: 2% 0;
+#container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 2em;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 800ms ease-in;
+}
+
+.items:hover {
+  transform: scale(1.09);
 }
