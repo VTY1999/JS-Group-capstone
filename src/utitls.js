@@ -1,4 +1,4 @@
-const involvementApi = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/Rddf0xwSVTLNIiHbS9z7';
+const involvementApi = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi//apps/SFfgjyyjhgstrdsc/comments';
 const MoviesApi = 'https://api.tvmaze.com/shows';
 // const LogoContainer = document.querySelector('.logo');
 const detailsContainer = document.querySelector('.details-wrapper');

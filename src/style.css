@@ -50,13 +50,6 @@ body {
   justify-content: space-between;
 }
 
-.reserve-btn {
-  background-color: green;
-  color: white;
-  padding: 5px;
-  border: none;
-}
-
 .common-btn {
   background-color: white;
   color: black;
@@ -350,7 +343,7 @@ input[type="submit"] {
   margin-top: 14px;
   margin-right: 55px;
   cursor: pointer;
-  color: rgb(19, 129, 19);
+  color: pink;
 }
 
 .top-container {
@@ -394,7 +387,7 @@ input[type="submit"] {
   width: 60%;
   max-width: 400px;
   margin-top: 10px;
-  background-color: green;
+  background-color: pink;
   border: none;
   padding: 10px;
   color: white;
@@ -416,7 +409,7 @@ input[type="submit"] {
 .close-btn {
   background: none;
   border: none;
-  color: green;
+  color: pink;
   font-weight: 700;
   font-size: 3em;
   position: absolute;
@@ -467,7 +460,7 @@ input[type="submit"] {
   width: 80%;
   margin: 7px auto;
   background-color: whitesmoke;
-  color: green;
+  color: pink;
   padding: 2.5%;
 }
 
@@ -486,13 +479,13 @@ input[type="submit"] {
 
 .comment-nameInput {
   padding: 10px;
-  outline-color: green;
+  outline-color: pink;
 }
 
 .comment-insights {
   padding: 10px;
   height: 120px;
-  outline-color: green;
+  outline-color: pink;
 }
 
 ::placeholder {
@@ -502,7 +495,7 @@ input[type="submit"] {
 }
 
 .add-comment-btn {
-  background-color: green;
+  background-color: pink;
   border: none;
   padding: 7px;
   color: white;
