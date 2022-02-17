@@ -1,7 +1,6 @@
 import './style.css';
 import Icon from './images/icon.png';
-import './likes.js';
-import display from './rendering.js';
+import rendering from './rendering.js';
 // import logoImage from './assets/Logo.png';
 import { updateLikes, postLikes } from './displaylike.js';
 
@@ -34,7 +33,7 @@ document.querySelector('.logo').appendChild(myIcon);
 
 const starter = async () => {
   const data = await fetchMovies();
-  await display(data);
+  await rendering(data);
 };
 
 starter();
@@ -49,14 +48,9 @@ mainContainer.addEventListener('click', async (event) => {
   }
 });
 
-postCommentsBtn.addEventListener('click', async (event) => {
-  const allComments = event.target.parentElement.parentElement.previousElementSibling;
-  const singleComment = allComments.querySelector('.single-comment');
+postCommentsBtn.addEventListener('click', async () => {
   if (userNameInput.value !== '' && userCommentInput.value !== '') {
-    const movieID = singleComment.id;
-    await postComments(movieID);
-    await getComments(movieID);
-    await countComments(movieID);
+    postComments(100);
     userNameInput.value = '';
     userCommentInput.value = '';
   } else {

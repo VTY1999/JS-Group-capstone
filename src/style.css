@@ -454,6 +454,7 @@ input[type="submit"] {
   overflow-y: auto;
   padding-bottom: 20px;
   margin-bottom: 30px;
+  color: #fff;
 }
 
 .single-comment {

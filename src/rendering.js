@@ -16,12 +16,11 @@ const rendering = (movies) => {
           
           <input type="number" id="${e.id}" class="counter" value="" name="">
           
-          <span id="${e.id}">Likes</span>
+          <span id="${e.id}"></span>
           </span>   
         </div>
         <div class="movie-btn">
           <button class="common-btn" id="${e.id}">Comments</i></button>
-          
         </div> 
       </div>
     `;

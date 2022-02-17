@@ -1,6 +1,6 @@
-const involvementApi = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi//apps/SFfgjyyjhgstrdsc/comments';
+const involvementApi = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/ThP8GJ5T9AWxrJLgrSBm';
 const MoviesApi = 'https://api.tvmaze.com/shows';
-// const LogoContainer = document.querySelector('.logo');
+const LogoContainer = document.querySelector('.logo');
 const detailsContainer = document.querySelector('.details-wrapper');
 const commentsContainer = document.querySelector('.all-comments');
 const userNameInput = document.querySelector('.comment-nameInput');
@@ -38,5 +38,5 @@ export {
   mainContainer,
   bigCommentsDiv,
   commentsCounter,
-  // LogoContainer,
+  LogoContainer,
 };
