@@ -4,6 +4,7 @@
 
 > Description the project.
 
+![sreenshot](https://github.com/VTY1999/JS-Group-capstone/blob/dev/src/images/Screenshot%20(98).png)
 
 ## Built With
 - HTML
