@@ -106,7 +106,7 @@ body {
   }
 
   .nav-items:hover {
-    color: green;
+    color: #52092d;
   }
 
   .main {
@@ -119,6 +119,11 @@ body {
   .grid-items {
     display: flex;
     flex-direction: column;
+    transition: 500ms ease-in;
+  }
+
+  .grid-items:hover {
+    transform: scale(1.05);
   }
 
   footer {
@@ -174,7 +179,7 @@ body {
   }
 
   .icon-link:hover {
-    color: rgb(4, 187, 4);
+    color: #52092d;
   }
 
   .pop-up {
@@ -228,7 +233,7 @@ body {
 }
 
 #active {
-  color: rgb(4, 163, 4);
+  color: #9e3c3c;
 }
 
 .nav-items {
@@ -460,7 +465,7 @@ input[type="submit"] {
   width: 80%;
   margin: 7px auto;
   background-color: whitesmoke;
-  color: pink;
+  color: #531923;
   padding: 2.5%;
 }
 
