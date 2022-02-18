@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# TVMAZE(JS-Capstone Project)
 
-> Description the project.
+> This is a movie rating site, that you can select your favorite TV show, like it, make a comment, and keep track of the number of likes.
 
 ![sreenshot](https://github.com/VTY1999/JS-Group-capstone/blob/dev/src/images/Screenshot%20(98).png)
 
