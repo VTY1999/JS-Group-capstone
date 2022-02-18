@@ -119,6 +119,11 @@ body {
   .grid-items {
     display: flex;
     flex-direction: column;
+    transition: 500ms ease-in;
+  }
+
+  .grid-items:hover {
+    transform: scale(1.05);
   }
 
   footer {
@@ -460,7 +465,7 @@ input[type="submit"] {
   width: 80%;
   margin: 7px auto;
   background-color: whitesmoke;
-  color: pink;
+  color: #531923;
   padding: 2.5%;
 }
 
