@@ -106,7 +106,7 @@ body {
   }
 
   .nav-items:hover {
-    color: green;
+    color: #52092d;
   }
 
   .main {
@@ -179,7 +179,7 @@ body {
   }
 
   .icon-link:hover {
-    color: rgb(4, 187, 4);
+    color: #52092d;
   }
 
   .pop-up {
@@ -233,7 +233,7 @@ body {
 }
 
 #active {
-  color: rgb(4, 163, 4);
+  color: #9e3c3c;
 }
 
 .nav-items {
