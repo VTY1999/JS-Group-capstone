@@ -31,7 +31,7 @@ export const openCommentsPopup = async (id) => {
 
   const commentsHTML = `
     <button class="close-btn">X</button>
-    <div class="top-container">
+    <div id=${id} class="top-container">
       <div class="image-and-download">
         <img class="tv-show-image" src="${movieImage}">
         <button class="download-btn" type="button">

@@ -20,7 +20,7 @@ const rendering = (movies) => {
           </span>   
         </div>
         <div class="movie-btn">
-          <button class="common-btn" id="${e.id}">Comments</i></button>
+          <button class="common-btn" id=${e.id}>Comments</i></button>
         </div> 
       </div>
     `;

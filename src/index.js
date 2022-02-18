@@ -50,7 +50,9 @@ mainContainer.addEventListener('click', async (event) => {
 
 postCommentsBtn.addEventListener('click', async () => {
   if (userNameInput.value !== '' && userCommentInput.value !== '') {
-    postComments(100);
+    const commentID = +document.querySelector('.top-container').id;
+    await postComments(commentID);
+    await getComments(commentID);
     userNameInput.value = '';
     userCommentInput.value = '';
   } else {
