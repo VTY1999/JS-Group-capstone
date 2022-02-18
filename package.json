@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VTY1999/webpack.git"
+    "url": "https://github.com/VTY1999/JS-Group-capstone.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/VTY1999/webpack/issues"
+    "url": "https://github.com/VTY1999/JS-Group-capstone/issues"
   },
-  "homepage": "https://github.com/VTY1999/webpack#readme",
+  "homepage": "https://github.com/VTY1999/JS-Group-capstone.git/dist",
   "devDependencies": {
     "@babel/cli": "^7.17.3",
     "@babel/core": "^7.17.4",
