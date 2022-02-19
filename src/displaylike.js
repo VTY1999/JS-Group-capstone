@@ -7,7 +7,7 @@ export const getLikes = async () => {
 };
 
 export const postLikes = async (id) => {
-  const response = await fetch(`${involvementApi}/likes`, {
+  const response = await fetch(`${involvementApi}/likes/`, {
     method: 'POST',
     headers: { 'Content-type': 'application/json' },
 

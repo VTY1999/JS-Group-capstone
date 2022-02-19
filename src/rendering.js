@@ -3,7 +3,7 @@ import { updateLikes, countHomeMovies } from './displaylike.js';
 const rendering = (movies) => {
   movies.forEach((e, index) => {
     const list = document.querySelector('.main');
-    if (index > 219) {
+    if (index < 30) {
       list.innerHTML += `
       <div class="grid-items">
         <ul class="image-card">
@@ -20,7 +20,7 @@ const rendering = (movies) => {
           </span>   
         </div>
         <div class="movie-btn">
-          <button class="common-btn" id=${e.id}>Comments</i></button>
+          <button class="common-btn" id="${e.id}">Comments</i></button>
         </div> 
       </div>
     `;

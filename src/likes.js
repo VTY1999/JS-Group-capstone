@@ -12,9 +12,3 @@ const likes = async (id) => {
 };
 
 export default likes;
-
-/**
-   * @jest-environment jsdom
-   */
-
-// Likes display on movie

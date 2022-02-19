@@ -1,7 +1,7 @@
 import './style.css';
 import Icon from './images/icon.png';
+import './likes.js';
 import rendering from './rendering.js';
-// import logoImage from './assets/Logo.png';
 import { updateLikes, postLikes } from './displaylike.js';
 
 import
@@ -14,7 +14,6 @@ import
   mainContainer,
   bigCommentsDiv,
   detailsContainer,
-  // LogoContainer,
 }
 from './utitls.js';
 
@@ -59,13 +58,6 @@ postCommentsBtn.addEventListener('click', async () => {
     submissionFail.innerHTML = 'Submission failed. Please try again.';
   }
 });
-
-// mainContainer.addEventListener('click', (e) => {
-//   if (e.target.className === 'reserve-btn') {
-//     const id = e.target.getAttribute('data-target');
-//     displayData(id);
-//   }
-// });
 
 detailsContainer.addEventListener('click', (event) => {
   if (event.target.className === 'close-btn') {

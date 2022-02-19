@@ -1,7 +1,3 @@
-/**
- * @jest-environment jsdom
- */
-
 import { countComments } from '../src/comment.js';
 
 global.fetch = jest.fn(() => Promise.resolve({

@@ -1,7 +1,3 @@
-/**
- * @jest-environment jsdom
- */
-
 import { count } from '../src/displaylike.js';
 
 describe('test for counting items function', () => {
@@ -24,7 +20,6 @@ describe('test for counting items function', () => {
          </div>
          <div class="movie-btn">
            <button class="common-btn" id="#">Comments</i></button>
-           <button class="reserve-btn" data-target="#">Reservation</i></button>
          </div> 
        </div></main>`;
     const countMovie = count();
