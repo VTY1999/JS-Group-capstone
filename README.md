@@ -18,7 +18,7 @@
 [Live Demo Link](https://vty1999.github.io/JS-Group-capstone/)
 
 ## Video Demo
-[Video Demo Link](https://www.loom.com/share/22b6d92968ac423c85f672e8c0677b17)
+[Video Demo Link](https://www.loom.com/share/6bebfdefccc0430da6c477d9f94dc035)
 
 
 ## Getting Started
