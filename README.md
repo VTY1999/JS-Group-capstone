@@ -13,9 +13,9 @@
 - Webpack
 
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://vty1999.github.io/JS-Group-capstone/)
 
 
 ## Getting Started
